@@ -1,6 +1,8 @@
 body {
     background-color: #222;
     color: #eee;
+    font-family: sans-serif;
+    font-size: 14px;
 
     width: 16rem;
     height: 4rem;
@@ -9,3 +11,24 @@ body {
 .special-text {
     color: red;
 }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  button {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #4CAF50;
+    color: #FFF;
+    cursor: pointer;
+  }
